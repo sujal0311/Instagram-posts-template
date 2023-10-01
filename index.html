@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram posts template</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+    <div id="main">
+        <div id="container">
+            <div id="nav">
+               <a href="https://www.instagram.com/"> <img src="https://fontspy.com/renderfontfamily/30578/0/billabong-fam-0.png?text=Instagram" alt=""></a>
+                <a href="https://www.instagram.com/#"><i class="ri-add-box-line"></i></a>
+                <a href="https://www.instagram.com/notifications/"><i class="ri-heart-line"></i></a>
+                <a href="https://www.instagram.com/direct/inbox/"><i class="ri-messenger-line"></i></a>
+            </div>
+            <div id="users">
+              <div id="full-screen"></div>
+            <div id="story">
+          </div>
+        </div>
+        <hr>
+        <br>
+        <div class="slider-container">
+            <button class="arrow-button left" onclick="prevSlide()">&#10094;</button>
+            <div class="slider">
+              <i id="clove" class="ri-heart-fill"></i>
+              <img class="heart" dblclick="heart()" src="https://plus.unsplash.com/premium_photo-1677260349790-b3372d0acc05?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80" alt="Image 1">
+              <img class="heart" dblclick="heart()" src="https://plus.unsplash.com/premium_photo-1695219820032-34cfa7950b09?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1886&q=80" alt="Image 2">
+              <img class="heart" dblclick="heart()" src="https://images.unsplash.com/photo-1694746028047-b105a3543137?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80" alt="Image 3">
+            <img class="heart" dblclick="heart()" src="https://images.unsplash.com/photo-1694875464363-5ef8ffd6a9a4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1928&q=80" alt="">
+            <img class="heart" dblclick="heart()" src="https://images.unsplash.com/photo-1694430066224-304e0fb2753d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1888&q=80" alt="">
+            <img class="heart" dblclick="heart()" src="https://images.unsplash.com/photo-1672773027671-514295f5ead3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80" alt="">
+            <img class="heart" dblclick="heart()" src="https://images.unsplash.com/photo-1695321423578-ecac36e065b0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80" alt="">
+            </div>
+            <button class="arrow-button right" onclick="nextSlide()">&#10095;</button>
+          </div>
+          <br>
+         
+
+          <div class="box">
+            <i onclick="redheart()" id="slove" class="ri-heart-fill"></i>
+            <i class="ri-chat-3-line"></i>
+            <i class="ri-share-forward-fill"></i>
+         </div>
+          <div class="friend-buttons">
+            <button id="add-friend" onclick="sendFriendRequest()">Add Friend</button>
+            <button id="remove-friend" onclick="removeFriendRequest()">Remove Friend</button>
+          </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
